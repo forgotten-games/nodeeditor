@@ -5,13 +5,13 @@
 
 #include <unordered_map>
 #include <tuple>
-#include <memory>
 #include <functional>
 
 #include "QUuidStdHash.hpp"
 #include "Export.hpp"
 #include "DataModelRegistry.hpp"
 #include "TypeConverter.hpp"
+#include "memory.hpp"
 
 namespace QtNodes
 {
@@ -31,8 +31,10 @@ class NODE_EDITOR_PUBLIC FlowScene
   Q_OBJECT
 public:
 
-  FlowScene(std::shared_ptr<DataModelRegistry> registry =
-              std::make_shared<DataModelRegistry>());
+  FlowScene(std::shared_ptr<DataModelRegistry> registry,
+            QObject * parent = Q_NULLPTR);
+
+  FlowScene(QObject * parent = Q_NULLPTR);
 
   ~FlowScene();
 
