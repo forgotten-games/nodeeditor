@@ -209,11 +209,11 @@ drawFilledConnectionPoints(QPainter * painter,
 
       for (size_t i = 0; i < n; ++i)
       {
-        QPointF p = geom.portScenePosition(i, portType);
+        QPointF p = geom.portScenePosition(static_cast<uint>(i), portType);
 
         if (!state.getEntries(portType)[i].empty())
         {
-          auto const & dataType = model->dataType(portType, i);
+          auto const & dataType = model->dataType(portType, static_cast<uint>(i));
 
           if (connectionStyle.useDataDefinedColors())
           {
@@ -296,7 +296,7 @@ drawEntryLabels(QPainter * painter,
 
       for (size_t i = 0; i < n; ++i)
       {
-        QPointF p = geom.portScenePosition(i, portType);
+        QPointF p = geom.portScenePosition(static_cast<uint>(i), portType);
 
         if (entries[i].empty())
           painter->setPen(nodeStyle.FontColorFaded);
@@ -305,13 +305,13 @@ drawEntryLabels(QPainter * painter,
 
         QString s;
 
-        if (model->portCaptionVisible(portType, i))
+        if (model->portCaptionVisible(portType, static_cast<uint>(i)))
         {
-          s = model->portCaption(portType, i);
+          s = model->portCaption(portType, static_cast<uint>(i));
         }
         else
         {
-          s = model->dataType(portType, i).name;
+          s = model->dataType(portType, static_cast<uint>(i)).name;
         }
 
         auto rect = metrics.boundingRect(s);

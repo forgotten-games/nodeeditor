@@ -263,7 +263,8 @@ deleteSelectedNodes()
   // delete the nodes, this will delete many of the connections
   for (QGraphicsItem * item : _scene->selectedItems())
   {
-    if (auto n = qgraphicsitem_cast<NodeGraphicsObject*>(item))
+	auto n = qgraphicsitem_cast<NodeGraphicsObject*>(item);
+    if (n && n->node().nodeDataModel()->deletable())
       _scene->removeNode(n->node());
   }
 

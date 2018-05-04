@@ -115,6 +115,12 @@ public:
   bool
   resizable() const { return false; }
 
+  bool
+  deletable() const { return _deletable; }
+
+  void
+  setDeletable(bool value) { _deletable = value; }
+
   virtual
   NodeValidationState
   validationState() const { return NodeValidationState::Valid; }
@@ -143,5 +149,6 @@ signals:
 private:
 
   NodeStyle _nodeStyle;
+  bool _deletable = true;
 };
 }

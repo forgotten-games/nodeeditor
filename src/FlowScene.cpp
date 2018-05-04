@@ -311,7 +311,7 @@ iterateOverNodeDataDependentOrder(std::function<void(NodeDataModel*)> visitor)
     {
       for (size_t i = 0; i < model.nPorts(PortType::In); ++i)
       {
-        auto connections = node.nodeState().connections(PortType::In, i);
+        auto connections = node.nodeState().connections(PortType::In, static_cast<uint>(i));
 
         for (auto& conn : connections)
         {

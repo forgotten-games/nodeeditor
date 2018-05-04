@@ -6,7 +6,7 @@ project(NodeEditor CXX)
 set(CMAKE_DISABLE_IN_SOURCE_BUILD ON)
 set(CMAKE_DISABLE_SOURCE_CHANGES  ON)
 
-option(BUILD_EXAMPLES "Build Examples" ON)
+option(BUILD_EXAMPLES "Build Examples" OFF)
 
 # Find the QtWidgets library
 find_package(Qt5 COMPONENTS
@@ -48,12 +48,12 @@ set(CPP_SOURCE_FILES
 # If we want to give the option to build a static library,
 # leave off SHARED here and use BUILD_SHARED_LIBS to
 # choose whether to add -D NODE_EDITOR_SHARED
-add_library(nodes SHARED
+add_library(NodeEditor SHARED
   ${CPP_SOURCE_FILES}
   ${RESOURCES}
 )
 
-target_include_directories(nodes
+target_include_directories(NodeEditor
   PUBLIC 
     $<INSTALL_INTERFACE:include>
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -62,7 +62,7 @@ target_include_directories(nodes
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include/nodes/internal>
 )
 
-target_link_libraries(nodes
+target_link_libraries(NodeEditor
   PUBLIC
     Qt5::Core
     Qt5::Widgets
@@ -70,7 +70,7 @@ target_link_libraries(nodes
     Qt5::OpenGL
 )
 
-target_compile_definitions(nodes
+target_compile_definitions(NodeEditor
   PUBLIC
     ${Qt5Widgets_DEFINITIONS}
     NODE_EDITOR_SHARED
@@ -79,19 +79,19 @@ target_compile_definitions(nodes
     #NODE_DEBUG_DRAWING
 )
 
-target_compile_options(nodes
+target_compile_options(NodeEditor
   PRIVATE
     $<$<CXX_COMPILER_ID:MSVC>:/W4 /wd4127 /EHsc>
     $<$<CXX_COMPILER_ID:GNU>:-Wall -Wextra>
     $<$<CXX_COMPILER_ID:Clang>:-Wall -Wextra>
 )
 
-target_compile_features(nodes
+target_compile_features(NodeEditor
   PUBLIC
     cxx_generic_lambdas # Require C++14
 )
 
-set_target_properties(nodes
+set_target_properties(NodeEditor
   PROPERTIES
     ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib
     LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib
@@ -106,11 +106,11 @@ file(GLOB_RECURSE HEADERS_TO_MOC include/nodes/internal/*.hpp)
 
 qt5_wrap_cpp(nodes_moc
     ${HEADERS_TO_MOC}
-  TARGET nodes
+  TARGET NodeEditor
   OPTIONS --no-notes # Don't display a note for the headers which don't produce a moc_*.cpp
 )
 
-target_sources(nodes PRIVATE ${nodes_moc})
+target_sources(NodeEditor PRIVATE ${nodes_moc})
 
 ###########
 # Examples
@@ -128,7 +128,7 @@ include(GNUInstallDirs)
 
 set(INSTALL_CONFIGDIR ${CMAKE_INSTALL_LIBDIR}/cmake/NodeEditor)
 
-install(TARGETS nodes
+install(TARGETS NodeEditor
   EXPORT NodeEditorTargets
   LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
   ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
