@@ -68,7 +68,7 @@ BibTeX
 [![Styles](https://bitbucket.org/paceholder/nodeeditor/raw/master/pictures/style_example.png)](https://www.youtube.com/watch?v=i_pB-Y0hCYQ)
 
 
-### Buy me a beer
+### Buy the original author a beer
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/DmitryPinaev)
 
