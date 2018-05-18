@@ -148,7 +148,7 @@ contextMenuEvent(QContextMenuEvent *event)
   for (auto const &assoc : _scene->registry().registeredModelsCategoryAssociation())
   {
 	// Filter non-instatiable nodes out
-	if (!_scene->registry().registeredModels().at(assoc.first)->instantiable())
+	if (!_scene->registry().registeredModelCreators().at(assoc.first)()->instantiable())
 	  continue;
 
     auto parent = topLevelItems[assoc.second];
