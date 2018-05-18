@@ -115,6 +115,11 @@ public:
   bool
   resizable() const { return false; }
 
+  // Sets if the node can be created in the drop down list at the FlowView
+  virtual
+  bool
+  instantiable() const { return true; }
+
   bool
   deletable() const { return _deletable; }
 

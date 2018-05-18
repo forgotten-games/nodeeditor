@@ -135,6 +135,10 @@ contextMenuEvent(QContextMenuEvent *event)
   QMap<QString, QTreeWidgetItem*> topLevelItems;
   for (auto const &cat : _scene->registry().categories())
   {
+	// Dont add hidden nodes to the list
+	if (cat.toLower() == "hidden")
+	  continue;
+
     auto item = new QTreeWidgetItem(treeView);
     item->setText(0, cat);
     item->setData(0, Qt::UserRole, skipText);
@@ -143,6 +147,10 @@ contextMenuEvent(QContextMenuEvent *event)
 
   for (auto const &assoc : _scene->registry().registeredModelsCategoryAssociation())
   {
+	// Filter non-instatiable nodes out
+	if (!_scene->registry().registeredModels().at(assoc.first)->instantiable())
+	  continue;
+
     auto parent = topLevelItems[assoc.second];
     auto item   = new QTreeWidgetItem(parent);
     item->setText(0, assoc.first);
