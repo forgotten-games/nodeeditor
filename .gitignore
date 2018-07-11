@@ -10,3 +10,5 @@ build/include/nodes/internal/moc_Compiler.cpp
 build/include/nodes/internal/
 build/NodeEditor_autogen/mocs_compilation.cpp
 build/CMakeFiles/NodeEditor_autogen.dir/AutogenOldSettings_Debug.txt
+build/Release/
+build/CMakeFiles/NodeEditor_autogen.dir/AutogenOldSettings_Release.txt
