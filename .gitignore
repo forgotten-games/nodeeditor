@@ -1,4 +1,6 @@
 *.py
 *.pyc
 CMakeLists.txt.user
-build/
+.vs/
+build/CMakeCache.txt
+*.tlog

@@ -1,0 +1,4 @@
+C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/INSTALL.dir
+C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/NodeEditor.dir
+C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/ZERO_CHECK.dir

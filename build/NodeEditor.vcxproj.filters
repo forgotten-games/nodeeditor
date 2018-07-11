@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\Connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\ConnectionBlurEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\ConnectionGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\ConnectionGraphicsObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\ConnectionPainter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\ConnectionState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\ConnectionStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\DataModelRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\FlowScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\FlowView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\FlowViewStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\NodeConnectionInteraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\NodeDataModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\NodeGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\NodeGraphicsObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\NodePainter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\NodeState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\NodeStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\Properties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\StyleCollection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\qrc_resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Compiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_ConnectionGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_ConnectionGraphicsObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_ConnectionState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_ConnectionStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_DataModelRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Export.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_FlowScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_FlowView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_FlowViewStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeDataModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeGraphicsObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodePainterDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_OperatingSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_PortType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_QStringStdHash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_QUuidStdHash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Serializable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Style.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_TypeConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\NodeEditor_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\resources\resources.qrc" />
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_Compiler.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_Connection.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_ConnectionGeometry.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_ConnectionGraphicsObject.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_ConnectionState.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_ConnectionStyle.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_DataModelRegistry.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_Export.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_FlowScene.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_FlowView.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_FlowViewStyle.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_Node.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_NodeData.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_NodeDataModel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_NodeGeometry.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_NodeGraphicsObject.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_NodePainterDelegate.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_NodeState.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_NodeStyle.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_OperatingSystem.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_PortType.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_QStringStdHash.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_QUuidStdHash.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_Serializable.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_Style.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_TypeConverter.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_memory.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0609D58F-0BA7-3C2B-AE87-BFFB44947447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{52164BE8-F554-3CA0-8A46-17263A0F3D22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
