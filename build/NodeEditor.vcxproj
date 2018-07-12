@@ -71,10 +71,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NODE_EDITOR_SHARED;NODE_EDITOR_EXPORTS;QT_OPENGL_LIB;CMAKE_INTDIR=\"Debug\";NodeEditor_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\NodeEditor_autogen\include_Debug;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal;C:\Qt\5.10.1\msvc2017_64\include;C:\Qt\5.10.1\msvc2017_64\include\QtCore;C:\Qt\5.10.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.10.1\msvc2017_64\include\QtWidgets;C:\Qt\5.10.1\msvc2017_64\include\QtGui;C:\Qt\5.10.1\msvc2017_64\include\QtANGLE;C:\Qt\5.10.1\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)NodeEditor_autogen\include_Debug;$(ProjectDir)..\include;$(ProjectDir)..\src;$(ProjectDir)..\include\nodes\internal;C:\Qt\5.10.1\msvc2017_64\include;C:\Qt\5.10.1\msvc2017_64\include\QtCore;C:\Qt\5.10.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.10.1\msvc2017_64\include\QtWidgets;C:\Qt\5.10.1\msvc2017_64\include\QtGui;C:\Qt\5.10.1\msvc2017_64\include\QtANGLE;C:\Qt\5.10.1\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\NodeEditor_autogen\include_Debug;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal;C:\Qt\5.10.1\msvc2017_64\include;C:\Qt\5.10.1\msvc2017_64\include\QtCore;C:\Qt\5.10.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.10.1\msvc2017_64\include\QtWidgets;C:\Qt\5.10.1\msvc2017_64\include\QtGui;C:\Qt\5.10.1\msvc2017_64\include\QtANGLE;C:\Qt\5.10.1\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)NodeEditor_autogen\include_Debug;$(ProjectDir)..\include;$(ProjectDir)..\src;$(ProjectDir)..\include\nodes\internal;C:\Qt\5.10.1\msvc2017_64\include;C:\Qt\5.10.1\msvc2017_64\include\QtCore;C:\Qt\5.10.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.10.1\msvc2017_64\include\QtWidgets;C:\Qt\5.10.1\msvc2017_64\include\QtGui;C:\Qt\5.10.1\msvc2017_64\include\QtANGLE;C:\Qt\5.10.1\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -131,10 +131,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NODE_EDITOR_SHARED;NODE_EDITOR_EXPORTS;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR=\"Release\";NodeEditor_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\NodeEditor_autogen\include_Release;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal;C:\Qt\5.10.1\msvc2017_64\include;C:\Qt\5.10.1\msvc2017_64\include\QtCore;C:\Qt\5.10.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.10.1\msvc2017_64\include\QtWidgets;C:\Qt\5.10.1\msvc2017_64\include\QtGui;C:\Qt\5.10.1\msvc2017_64\include\QtANGLE;C:\Qt\5.10.1\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)NodeEditor_autogen\include_Release;$(ProjectDir)..\include;$(ProjectDir)..\src;$(ProjectDir)..\include\nodes\internal;C:\Qt\5.10.1\msvc2017_64\include;C:\Qt\5.10.1\msvc2017_64\include\QtCore;C:\Qt\5.10.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.10.1\msvc2017_64\include\QtWidgets;C:\Qt\5.10.1\msvc2017_64\include\QtGui;C:\Qt\5.10.1\msvc2017_64\include\QtANGLE;C:\Qt\5.10.1\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\NodeEditor_autogen\include_Release;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal;C:\Qt\5.10.1\msvc2017_64\include;C:\Qt\5.10.1\msvc2017_64\include\QtCore;C:\Qt\5.10.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.10.1\msvc2017_64\include\QtWidgets;C:\Qt\5.10.1\msvc2017_64\include\QtGui;C:\Qt\5.10.1\msvc2017_64\include\QtANGLE;C:\Qt\5.10.1\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)NodeEditor_autogen\include_Release;$(ProjectDir)..\include;$(ProjectDir)..\src;$(ProjectDir)..\include\nodes\internal;C:\Qt\5.10.1\msvc2017_64\include;C:\Qt\5.10.1\msvc2017_64\include\QtCore;C:\Qt\5.10.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.10.1\msvc2017_64\include\QtWidgets;C:\Qt\5.10.1\msvc2017_64\include\QtGui;C:\Qt\5.10.1\msvc2017_64\include\QtANGLE;C:\Qt\5.10.1\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -172,10 +172,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\resources\resources.qrc">
+    <CustomBuild Include="$(ProjectDir)..\resources\resources.qrc">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qrc_resources.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\Qt\5.10.1\msvc2017_64\bin\rcc.exe --name resources --output C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/qrc_resources.cpp C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/resources/resources.qrc
+C:\Qt\5.10.1\msvc2017_64\bin\rcc.exe --name resources --output $(ProjectDir)qrc_resources.cpp $(ProjectDir)../resources/resources.qrc
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -183,12 +183,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/resources/resources.qrc;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\resources\DefaultStyle.json;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\resources\convert.png;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\resources\resources.qrc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\qrc_resources.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)../resources/resources.qrc;$(ProjectDir)..\resources\DefaultStyle.json;$(ProjectDir)..\resources\convert.png;$(ProjectDir)..\resources\resources.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)qrc_resources.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qrc_resources.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\Qt\5.10.1\msvc2017_64\bin\rcc.exe --name resources --output C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/qrc_resources.cpp C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/resources/resources.qrc
+C:\Qt\5.10.1\msvc2017_64\bin\rcc.exe --name resources --output $(ProjectDir)qrc_resources.cpp $(ProjectDir)../resources/resources.qrc
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -196,20 +196,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/resources/resources.qrc;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\resources\DefaultStyle.json;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\resources\convert.png;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\resources\resources.qrc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\qrc_resources.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)../resources/resources.qrc;$(ProjectDir)..\resources\DefaultStyle.json;$(ProjectDir)..\resources\convert.png;$(ProjectDir)..\resources\resources.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)qrc_resources.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_Compiler.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_Compiler.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_Compiler.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_Compiler.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_Compiler.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -217,16 +217,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Compiler.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\Compiler.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Compiler.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Compiler.cpp.rule;$(ProjectDir)..\include\nodes\internal\Compiler.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_Compiler.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_Compiler.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_Compiler.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_Compiler.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -234,20 +234,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Compiler.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\Compiler.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Compiler.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Compiler.cpp.rule;$(ProjectDir)..\include\nodes\internal\Compiler.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_Compiler.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_Connection.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_Connection.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_Connection.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_Connection.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_Connection.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -255,16 +255,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Connection.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\Connection.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Connection.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Connection.cpp.rule;$(ProjectDir)..\include\nodes\internal\Connection.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_Connection.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_Connection.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_Connection.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_Connection.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -272,20 +272,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Connection.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\Connection.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Connection.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Connection.cpp.rule;$(ProjectDir)..\include\nodes\internal\Connection.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_Connection.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_ConnectionGeometry.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_ConnectionGeometry.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_ConnectionGeometry.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_ConnectionGeometry.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_ConnectionGeometry.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -293,16 +293,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_ConnectionGeometry.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\ConnectionGeometry.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_ConnectionGeometry.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_ConnectionGeometry.cpp.rule;$(ProjectDir)..\include\nodes\internal\ConnectionGeometry.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_ConnectionGeometry.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_ConnectionGeometry.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_ConnectionGeometry.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_ConnectionGeometry.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -310,20 +310,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_ConnectionGeometry.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\ConnectionGeometry.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_ConnectionGeometry.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_ConnectionGeometry.cpp.rule;$(ProjectDir)..\include\nodes\internal\ConnectionGeometry.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_ConnectionGeometry.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_ConnectionGraphicsObject.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_ConnectionGraphicsObject.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_ConnectionGraphicsObject.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_ConnectionGraphicsObject.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_ConnectionGraphicsObject.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -331,16 +331,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_ConnectionGraphicsObject.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\ConnectionGraphicsObject.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_ConnectionGraphicsObject.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_ConnectionGraphicsObject.cpp.rule;$(ProjectDir)..\include\nodes\internal\ConnectionGraphicsObject.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_ConnectionGraphicsObject.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_ConnectionGraphicsObject.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_ConnectionGraphicsObject.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_ConnectionGraphicsObject.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -348,20 +348,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_ConnectionGraphicsObject.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\ConnectionGraphicsObject.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_ConnectionGraphicsObject.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_ConnectionGraphicsObject.cpp.rule;$(ProjectDir)..\include\nodes\internal\ConnectionGraphicsObject.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_ConnectionGraphicsObject.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_ConnectionState.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_ConnectionState.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_ConnectionState.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_ConnectionState.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_ConnectionState.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -369,16 +369,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_ConnectionState.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\ConnectionState.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_ConnectionState.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_ConnectionState.cpp.rule;$(ProjectDir)..\include\nodes\internal\ConnectionState.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_ConnectionState.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_ConnectionState.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_ConnectionState.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_ConnectionState.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -386,20 +386,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_ConnectionState.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\ConnectionState.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_ConnectionState.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_ConnectionState.cpp.rule;$(ProjectDir)..\include\nodes\internal\ConnectionState.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_ConnectionState.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_ConnectionStyle.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_ConnectionStyle.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_ConnectionStyle.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_ConnectionStyle.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_ConnectionStyle.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -407,16 +407,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_ConnectionStyle.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\ConnectionStyle.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_ConnectionStyle.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_ConnectionStyle.cpp.rule;$(ProjectDir)..\include\nodes\internal\ConnectionStyle.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_ConnectionStyle.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_ConnectionStyle.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_ConnectionStyle.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_ConnectionStyle.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -424,20 +424,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_ConnectionStyle.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\ConnectionStyle.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_ConnectionStyle.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_ConnectionStyle.cpp.rule;$(ProjectDir)..\include\nodes\internal\ConnectionStyle.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_ConnectionStyle.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_DataModelRegistry.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_DataModelRegistry.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_DataModelRegistry.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_DataModelRegistry.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_DataModelRegistry.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -445,16 +445,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_DataModelRegistry.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\DataModelRegistry.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_DataModelRegistry.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_DataModelRegistry.cpp.rule;$(ProjectDir)..\include\nodes\internal\DataModelRegistry.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_DataModelRegistry.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_DataModelRegistry.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_DataModelRegistry.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_DataModelRegistry.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -462,20 +462,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_DataModelRegistry.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\DataModelRegistry.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_DataModelRegistry.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_DataModelRegistry.cpp.rule;$(ProjectDir)..\include\nodes\internal\DataModelRegistry.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_DataModelRegistry.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_Export.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_Export.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_Export.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_Export.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_Export.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -483,16 +483,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Export.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\Export.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Export.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Export.cpp.rule;$(ProjectDir)..\include\nodes\internal\Export.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_Export.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_Export.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_Export.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_Export.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -500,20 +500,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Export.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\Export.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Export.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Export.cpp.rule;$(ProjectDir)..\include\nodes\internal\Export.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_Export.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_FlowScene.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_FlowScene.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_FlowScene.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_FlowScene.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_FlowScene.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -521,16 +521,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_FlowScene.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\FlowScene.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_FlowScene.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_FlowScene.cpp.rule;$(ProjectDir)..\include\nodes\internal\FlowScene.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_FlowScene.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_FlowScene.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_FlowScene.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_FlowScene.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -538,20 +538,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_FlowScene.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\FlowScene.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_FlowScene.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_FlowScene.cpp.rule;$(ProjectDir)..\include\nodes\internal\FlowScene.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_FlowScene.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_FlowView.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_FlowView.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_FlowView.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_FlowView.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_FlowView.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -559,16 +559,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_FlowView.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\FlowView.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_FlowView.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_FlowView.cpp.rule;$(ProjectDir)..\include\nodes\internal\FlowView.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_FlowView.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_FlowView.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_FlowView.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_FlowView.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -576,20 +576,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_FlowView.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\FlowView.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_FlowView.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_FlowView.cpp.rule;$(ProjectDir)..\include\nodes\internal\FlowView.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_FlowView.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_FlowViewStyle.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_FlowViewStyle.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_FlowViewStyle.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_FlowViewStyle.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_FlowViewStyle.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -597,16 +597,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_FlowViewStyle.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\FlowViewStyle.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_FlowViewStyle.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_FlowViewStyle.cpp.rule;$(ProjectDir)..\include\nodes\internal\FlowViewStyle.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_FlowViewStyle.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_FlowViewStyle.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_FlowViewStyle.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_FlowViewStyle.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -614,20 +614,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_FlowViewStyle.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\FlowViewStyle.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_FlowViewStyle.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_FlowViewStyle.cpp.rule;$(ProjectDir)..\include\nodes\internal\FlowViewStyle.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_FlowViewStyle.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_Node.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_Node.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_Node.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_Node.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_Node.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -635,16 +635,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Node.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\Node.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Node.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Node.cpp.rule;$(ProjectDir)..\include\nodes\internal\Node.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_Node.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_Node.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_Node.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_Node.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -652,20 +652,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Node.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\Node.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Node.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Node.cpp.rule;$(ProjectDir)..\include\nodes\internal\Node.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_Node.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_NodeData.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_NodeData.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_NodeData.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_NodeData.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_NodeData.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -673,16 +673,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeData.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\NodeData.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeData.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeData.cpp.rule;$(ProjectDir)..\include\nodes\internal\NodeData.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_NodeData.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_NodeData.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_NodeData.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_NodeData.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -690,20 +690,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeData.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\NodeData.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeData.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeData.cpp.rule;$(ProjectDir)..\include\nodes\internal\NodeData.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_NodeData.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_NodeDataModel.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_NodeDataModel.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_NodeDataModel.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_NodeDataModel.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_NodeDataModel.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -711,16 +711,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeDataModel.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\NodeDataModel.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeDataModel.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeDataModel.cpp.rule;$(ProjectDir)..\include\nodes\internal\NodeDataModel.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_NodeDataModel.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_NodeDataModel.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_NodeDataModel.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_NodeDataModel.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -728,20 +728,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeDataModel.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\NodeDataModel.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeDataModel.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeDataModel.cpp.rule;$(ProjectDir)..\include\nodes\internal\NodeDataModel.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_NodeDataModel.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_NodeGeometry.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_NodeGeometry.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_NodeGeometry.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_NodeGeometry.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_NodeGeometry.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -749,16 +749,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeGeometry.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\NodeGeometry.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeGeometry.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeGeometry.cpp.rule;$(ProjectDir)..\include\nodes\internal\NodeGeometry.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_NodeGeometry.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_NodeGeometry.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_NodeGeometry.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_NodeGeometry.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -766,20 +766,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeGeometry.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\NodeGeometry.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeGeometry.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeGeometry.cpp.rule;$(ProjectDir)..\include\nodes\internal\NodeGeometry.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_NodeGeometry.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_NodeGraphicsObject.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_NodeGraphicsObject.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_NodeGraphicsObject.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_NodeGraphicsObject.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_NodeGraphicsObject.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -787,16 +787,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeGraphicsObject.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\NodeGraphicsObject.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeGraphicsObject.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeGraphicsObject.cpp.rule;$(ProjectDir)..\include\nodes\internal\NodeGraphicsObject.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_NodeGraphicsObject.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_NodeGraphicsObject.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_NodeGraphicsObject.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_NodeGraphicsObject.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -804,20 +804,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeGraphicsObject.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\NodeGraphicsObject.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeGraphicsObject.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeGraphicsObject.cpp.rule;$(ProjectDir)..\include\nodes\internal\NodeGraphicsObject.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_NodeGraphicsObject.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_NodePainterDelegate.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_NodePainterDelegate.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_NodePainterDelegate.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_NodePainterDelegate.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_NodePainterDelegate.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -825,16 +825,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodePainterDelegate.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\NodePainterDelegate.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodePainterDelegate.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodePainterDelegate.cpp.rule;$(ProjectDir)..\include\nodes\internal\NodePainterDelegate.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_NodePainterDelegate.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_NodePainterDelegate.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_NodePainterDelegate.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_NodePainterDelegate.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -842,20 +842,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodePainterDelegate.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\NodePainterDelegate.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodePainterDelegate.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodePainterDelegate.cpp.rule;$(ProjectDir)..\include\nodes\internal\NodePainterDelegate.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_NodePainterDelegate.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_NodeState.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_NodeState.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_NodeState.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_NodeState.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_NodeState.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -863,16 +863,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeState.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\NodeState.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeState.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeState.cpp.rule;$(ProjectDir)..\include\nodes\internal\NodeState.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_NodeState.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_NodeState.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_NodeState.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_NodeState.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -880,20 +880,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeState.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\NodeState.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeState.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeState.cpp.rule;$(ProjectDir)..\include\nodes\internal\NodeState.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_NodeState.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_NodeStyle.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_NodeStyle.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_NodeStyle.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_NodeStyle.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_NodeStyle.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -901,16 +901,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeStyle.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\NodeStyle.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeStyle.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeStyle.cpp.rule;$(ProjectDir)..\include\nodes\internal\NodeStyle.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_NodeStyle.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_NodeStyle.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_NodeStyle.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_NodeStyle.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -918,20 +918,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeStyle.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\NodeStyle.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeStyle.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_NodeStyle.cpp.rule;$(ProjectDir)..\include\nodes\internal\NodeStyle.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_NodeStyle.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_OperatingSystem.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_OperatingSystem.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_OperatingSystem.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_OperatingSystem.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_OperatingSystem.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -939,16 +939,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_OperatingSystem.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\OperatingSystem.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_OperatingSystem.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_OperatingSystem.cpp.rule;$(ProjectDir)..\include\nodes\internal\OperatingSystem.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_OperatingSystem.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_OperatingSystem.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_OperatingSystem.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_OperatingSystem.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -956,20 +956,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_OperatingSystem.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\OperatingSystem.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_OperatingSystem.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_OperatingSystem.cpp.rule;$(ProjectDir)..\include\nodes\internal\OperatingSystem.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_OperatingSystem.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_PortType.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_PortType.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_PortType.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_PortType.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_PortType.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -977,16 +977,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_PortType.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\PortType.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_PortType.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_PortType.cpp.rule;$(ProjectDir)..\include\nodes\internal\PortType.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_PortType.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_PortType.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_PortType.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_PortType.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -994,20 +994,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_PortType.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\PortType.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_PortType.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_PortType.cpp.rule;$(ProjectDir)..\include\nodes\internal\PortType.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_PortType.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_QStringStdHash.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_QStringStdHash.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_QStringStdHash.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_QStringStdHash.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_QStringStdHash.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1015,16 +1015,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_QStringStdHash.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\QStringStdHash.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_QStringStdHash.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_QStringStdHash.cpp.rule;$(ProjectDir)..\include\nodes\internal\QStringStdHash.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_QStringStdHash.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_QStringStdHash.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_QStringStdHash.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_QStringStdHash.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1032,20 +1032,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_QStringStdHash.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\QStringStdHash.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_QStringStdHash.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_QStringStdHash.cpp.rule;$(ProjectDir)..\include\nodes\internal\QStringStdHash.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_QStringStdHash.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_QUuidStdHash.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_QUuidStdHash.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_QUuidStdHash.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_QUuidStdHash.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_QUuidStdHash.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1053,16 +1053,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_QUuidStdHash.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\QUuidStdHash.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_QUuidStdHash.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_QUuidStdHash.cpp.rule;$(ProjectDir)..\include\nodes\internal\QUuidStdHash.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_QUuidStdHash.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_QUuidStdHash.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_QUuidStdHash.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_QUuidStdHash.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1070,20 +1070,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_QUuidStdHash.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\QUuidStdHash.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_QUuidStdHash.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_QUuidStdHash.cpp.rule;$(ProjectDir)..\include\nodes\internal\QUuidStdHash.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_QUuidStdHash.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_Serializable.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_Serializable.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_Serializable.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_Serializable.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_Serializable.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1091,16 +1091,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Serializable.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\Serializable.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Serializable.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Serializable.cpp.rule;$(ProjectDir)..\include\nodes\internal\Serializable.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_Serializable.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_Serializable.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_Serializable.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_Serializable.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1108,20 +1108,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Serializable.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\Serializable.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Serializable.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Serializable.cpp.rule;$(ProjectDir)..\include\nodes\internal\Serializable.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_Serializable.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_Style.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_Style.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_Style.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_Style.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_Style.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1129,16 +1129,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Style.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\Style.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Style.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Style.cpp.rule;$(ProjectDir)..\include\nodes\internal\Style.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_Style.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_Style.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_Style.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_Style.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1146,20 +1146,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Style.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\Style.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Style.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_Style.cpp.rule;$(ProjectDir)..\include\nodes\internal\Style.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_Style.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_TypeConverter.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_TypeConverter.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_TypeConverter.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_TypeConverter.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_TypeConverter.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1167,16 +1167,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_TypeConverter.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\TypeConverter.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_TypeConverter.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_TypeConverter.cpp.rule;$(ProjectDir)..\include\nodes\internal\TypeConverter.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_TypeConverter.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_TypeConverter.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_TypeConverter.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_TypeConverter.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1184,20 +1184,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_TypeConverter.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\TypeConverter.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_TypeConverter.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_TypeConverter.cpp.rule;$(ProjectDir)..\include\nodes\internal\TypeConverter.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_TypeConverter.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_memory.cpp.rule">
+    <CustomBuild Include="$(ProjectDir)CMakeFiles\15dac25f84d646c92d2fd9a9e1658361\moc_memory.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/nodes/internal/moc_memory.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_memory.cpp_parameters_Debug
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_memory.cpp_parameters_Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1205,16 +1205,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_memory.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\memory.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_memory.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_memory.cpp.rule;$(ProjectDir)..\include\nodes\internal\memory.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include\nodes\internal\moc_memory.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/nodes/internal/moc_memory.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal
+cd $(ProjectDir)include\nodes\internal
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/include/nodes/internal/moc_memory.cpp_parameters_Release
+C:\Qt\5.10.1\msvc2017_64\bin\moc.exe @$(ProjectDir)include/nodes/internal/moc_memory.cpp_parameters_Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1222,16 +1222,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_memory.cpp.rule;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\include\nodes\internal\memory.hpp;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_memory.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles/15dac25f84d646c92d2fd9a9e1658361/moc_memory.cpp.rule;$(ProjectDir)..\include\nodes\internal\memory.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)include\nodes\internal\moc_memory.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/CMakeLists.txt</Message>
+    <CustomBuild Include="$(ProjectDir)..\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule $(ProjectDir)../CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor -BC:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build --check-stamp-file C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -H$(ProjectDir)../ -B$(ProjectDir)build --check-stamp-file $(ProjectDir)CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1239,12 +1239,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/CMakeLists.txt;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\CMakeLists.txt;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\3.11.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\3.11.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\3.11.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\resources\resources.qrc;C:\Program Files\CMake\share\cmake-3.11\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\cmake\NodeEditorConfig.cmake.in;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)../CMakeLists.txt;$(ProjectDir)..\CMakeLists.txt;$(ProjectDir)CMakeFiles\3.11.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;$(ProjectDir)CMakeFiles\3.11.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;$(ProjectDir)CMakeFiles\3.11.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;$(ProjectDir)..\resources\resources.qrc;C:\Program Files\CMake\share\cmake-3.11\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\WriteBasicConfigVersionFile.cmake;$(ProjectDir)..\cmake\NodeEditorConfig.cmake.in;$(ProjectDir)..\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule $(ProjectDir)../CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor -BC:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build --check-stamp-file C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -H$(ProjectDir)../ -B$(ProjectDir)build --check-stamp-file $(ProjectDir)CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1252,62 +1252,62 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/jvieira-filho/Documents/Projects/titan-tech/code/src/lib/NodeEditor/CMakeLists.txt;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\CMakeLists.txt;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\3.11.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\3.11.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\3.11.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\resources\resources.qrc;C:\Program Files\CMake\share\cmake-3.11\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\cmake\NodeEditorConfig.cmake.in;C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)../CMakeLists.txt;$(ProjectDir)../CMakeLists.txt;$(ProjectDir)CMakeFiles\3.11.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;$(ProjectDir)CMakeFiles\3.11.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;$(ProjectDir)CMakeFiles\3.11.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.10.1\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;$(ProjectDir)..\resources\resources.qrc;C:\Program Files\CMake\share\cmake-3.11\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\WriteBasicConfigVersionFile.cmake;$(ProjectDir)..\cmake\NodeEditorConfig.cmake.in;$(ProjectDir)..\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\Connection.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\ConnectionBlurEffect.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\ConnectionGeometry.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\ConnectionGraphicsObject.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\ConnectionPainter.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\ConnectionState.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\ConnectionStyle.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\DataModelRegistry.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\FlowScene.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\FlowView.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\FlowViewStyle.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\Node.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\NodeConnectionInteraction.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\NodeDataModel.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\NodeGeometry.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\NodeGraphicsObject.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\NodePainter.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\NodeState.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\NodeStyle.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\Properties.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\src\StyleCollection.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\qrc_resources.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Compiler.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Connection.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_ConnectionGeometry.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_ConnectionGraphicsObject.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_ConnectionState.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_ConnectionStyle.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_DataModelRegistry.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Export.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_FlowScene.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_FlowView.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_FlowViewStyle.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Node.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeData.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeDataModel.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeGeometry.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeGraphicsObject.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodePainterDelegate.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeState.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_NodeStyle.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_OperatingSystem.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_PortType.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_QStringStdHash.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_QUuidStdHash.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Serializable.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_Style.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_TypeConverter.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\include\nodes\internal\moc_memory.cpp" />
-    <ClCompile Include="C:\Users\jvieira-filho\Documents\Projects\titan-tech\code\src\lib\NodeEditor\build\NodeEditor_autogen\mocs_compilation.cpp" />
+    <ClCompile Include="$(ProjectDir)..\src\Connection.cpp" />
+    <ClCompile Include="$(ProjectDir)..\src\ConnectionBlurEffect.cpp" />
+    <ClCompile Include="$(ProjectDir)..\src\ConnectionGeometry.cpp" />
+    <ClCompile Include="$(ProjectDir)..\src\ConnectionGraphicsObject.cpp" />
+    <ClCompile Include="$(ProjectDir)..\src\ConnectionPainter.cpp" />
+    <ClCompile Include="$(ProjectDir)..\src\ConnectionState.cpp" />
+    <ClCompile Include="$(ProjectDir)..\src\ConnectionStyle.cpp" />
+    <ClCompile Include="$(ProjectDir)..\src\DataModelRegistry.cpp" />
+    <ClCompile Include="$(ProjectDir)..\src\FlowScene.cpp" />
+    <ClCompile Include="$(ProjectDir)..\src\FlowView.cpp" />
+    <ClCompile Include="$(ProjectDir)..\src\FlowViewStyle.cpp" />
+    <ClCompile Include="$(ProjectDir)..\src\Node.cpp" />
+    <ClCompile Include="$(ProjectDir)..\src\NodeConnectionInteraction.cpp" />
+    <ClCompile Include="$(ProjectDir)..\src\NodeDataModel.cpp" />
+    <ClCompile Include="$(ProjectDir)..\src\NodeGeometry.cpp" />
+    <ClCompile Include="$(ProjectDir)..\src\NodeGraphicsObject.cpp" />
+    <ClCompile Include="$(ProjectDir)..\src\NodePainter.cpp" />
+    <ClCompile Include="$(ProjectDir)..\src\NodeState.cpp" />
+    <ClCompile Include="$(ProjectDir)..\src\NodeStyle.cpp" />
+    <ClCompile Include="$(ProjectDir)..\src\Properties.cpp" />
+    <ClCompile Include="$(ProjectDir)..\src\StyleCollection.cpp" />
+    <ClCompile Include="$(ProjectDir)qrc_resources.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_Compiler.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_Connection.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_ConnectionGeometry.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_ConnectionGraphicsObject.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_ConnectionState.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_ConnectionStyle.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_DataModelRegistry.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_Export.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_FlowScene.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_FlowView.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_FlowViewStyle.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_Node.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_NodeData.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_NodeDataModel.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_NodeGeometry.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_NodeGraphicsObject.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_NodePainterDelegate.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_NodeState.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_NodeStyle.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_OperatingSystem.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_PortType.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_QStringStdHash.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_QUuidStdHash.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_Serializable.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_Style.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_TypeConverter.cpp" />
+    <ClCompile Include="$(ProjectDir)include\nodes\internal\moc_memory.cpp" />
+    <ClCompile Include="$(ProjectDir)NodeEditor_autogen\mocs_compilation.cpp" />
   </ItemGroup> 
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
